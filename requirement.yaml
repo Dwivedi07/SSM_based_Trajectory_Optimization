@@ -1,0 +1,28 @@
+name: ART
+channels:
+  - nvidia
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - pytorch=1.13.1
+  - torchvision=0.14.1
+  - torchaudio=0.13.1
+  - pytorch-cuda=11.6
+  - cudatoolkit=11.6
+  - accelerate==0.21.0
+  - cvxpy==1.3.2
+  - ecos==2.0.12
+  - jax==0.4.23
+  - jaxlib==0.4.23
+  - matplotlib==3.7.2
+  - numpy==1.25.2
+  - opt-einsum==3.3.0
+  - scipy==1.11.2
+  - seaborn==0.12.2
+  - tokenizers==0.13.3
+  - tqdm==4.66.1
+  - transformers==4.32.0
+  - pip
+  - pip:
+      - mosek==10.1.11

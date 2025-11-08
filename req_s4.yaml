@@ -1,0 +1,34 @@
+name: ART
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch==1.13.1
+  - torchvision==0.14.1
+  - torchaudio==0.13.1
+  - pytorch-cuda=11.6
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - rich
+  - torchtext
+  - lit
+  - pytorch-lightning==2.0.4
+  - hydra-core
+  - omegaconf
+  - wandb
+  - einops
+  - cmake
+  - transformers
+  - datasets
+  - sktime
+  - numba
+  - gluonts
+  - pip:
+    - pytorch-fast-transformers  # This is the model-specific package
